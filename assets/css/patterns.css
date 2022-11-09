@@ -7,11 +7,13 @@ h1 {
 h2 {
     font-size: 3.2rem;
     font-weight: 600;
+    color: var(--white);
 }
 
 h3 {
     font-weight: 500;
     font-size: 2.4rem;
+    color: var(--white);
 }
 
 h1,
@@ -19,5 +21,24 @@ h2,
 h3 {
     line-height: 125%;
     letter-spacing: -1px;
+}
+
+.btn-primarty {
+    display: inline-block;
+    background-color: var(--primary);
+    padding: 1.2rem 3.4rem;
+    letter-spacing: -0.01rem;
+    font-weight: 600;
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+.menu-item {
+    display: inline-block;
+    background-color: var(--gray);
+    padding: 1.2rem 2.4rem;
+    font-size: 1.5rem;
+    line-height: 105%;
+    letter-spacing: -0.01rem;
     color: var(--white);
 }
