@@ -23,7 +23,7 @@ h3 {
     letter-spacing: -1px;
 }
 
-.btn-primarty {
+.btn-primary {
     display: inline-block;
     background-color: var(--primary);
     padding: 1.2rem 3.4rem;
@@ -37,8 +37,9 @@ h3 {
     display: inline-block;
     background-color: var(--gray);
     padding: 1.2rem 2.4rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 105%;
     letter-spacing: -0.01rem;
-    color: var(--white);
+    color: var(--black);
+    font-weight: 500;
 }
