@@ -28,9 +28,13 @@
    }
 
    .header nav ul li:first-child {
-    margin-right: 0;
+    margin-left: 0;
    }
 
    .header nav .btn-primary {
     padding: 0.9rem 3.4rem;
+   }
+
+   .menu-mobile {
+    display: none;
    }
