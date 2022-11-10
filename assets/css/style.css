@@ -41,8 +41,50 @@
     display: none;
    }
 
-   /* Seção hero 
+   /* Section hero 
    *******************/
+   .hero {
+    padding: 7.2rem 0;
+   }
+
    .hero .container {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+   .hero .text {
+    width: 100%;
+    max-width:  640px;
+   }
+
+   .hero .text h1 {
+    margin-bottom: 2rem;
+   }
+
+   .hero .text p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--black);
+    margin-bottom: 4.6rem;
+    max-width: 488px;
+    line-height: 150%;
+   }
+
+   .text .btn-primary {
+    padding: 1.5rem 3.5rem;
+    transition: .3s all;
+   }
+   .text .btn-primary:hover {
+    transform: scale(1.1);
+   }
+
+   .hero .image {
+    width: 100%;
+    max-width: 480px;
+    height: 496px;
+    background-color: var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }

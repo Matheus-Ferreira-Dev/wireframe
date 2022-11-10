@@ -1,5 +1,7 @@
  @media (max-width: 1200px) {
-
+   .hero .text {
+        max-width: 49%;
+    }
  }
 
 
@@ -11,10 +13,36 @@
     .header .menu-mobile {
         display: block;
     }
+
+    /* Section hero */
+    .hero .container {
+        flex-direction: column;
+    }
+/*     
+    .hero .image {
+        max-width: 40%;
+        height: 40rem;
+    } */
+
+    .hero .text {
+        max-width: 100%;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+
+    .hero .text h1 {
+        text-align: center;
+    }
+
+    .hero .text p {
+        text-align: center;
+    }
  }
 
  @media (max-width: 768px) {
-
+ 
  }
 
  @media (max-width: 600px)  {
