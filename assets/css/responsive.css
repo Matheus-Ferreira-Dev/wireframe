@@ -4,7 +4,6 @@
     }
  }
 
-
  @media (max-width: 1000px) {
     .header nav {
         display: none;
@@ -49,14 +48,17 @@
  }
 
  @media (max-width: 480px)  {
+    /* Fonte */
     html {
         font-size: 55%;
     }
     
+    /* logo */
     .header .logo {
         max-width: 130px;
     }
 
+    /* hero section */
     .hero {
         padding: 4rem 0;
     }
