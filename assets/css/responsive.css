@@ -26,11 +26,11 @@
          flex-direction: column;
      }
 
-     /*     
-    .hero .image {
+     /* .hero .image {
         max-width: 40%;
         height: 40rem;
-    } */
+    }  */
+
      .hero .text {
          max-width: 100%;
          margin-bottom: 4rem;
@@ -107,13 +107,17 @@
          max-width: 100px;
      }
 
-     .featured-cards .main-area {
-         padding-bottom: 4rem;
+     .featured-cards {
+         padding: 4rem 0;
      }
 
-     .featured-cards .cards .card .info p:first-child {
+     .featured-cards .main-area .info p {
          text-align: center;
-         max-width: 80%;
+         max-width: 90%;
+     }
+
+     .featured-cards .main-area {
+        padding-bottom: 4rem;
      }
 
  }

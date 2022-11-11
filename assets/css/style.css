@@ -171,3 +171,10 @@
 .cards .white p {
   line-height: 150%;
 }
+
+/**********************
+Second area
+**********************/
+.featured-cards .second-area {
+  margin-top: 10rem 0 ;
+}
